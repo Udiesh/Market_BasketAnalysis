@@ -132,7 +132,7 @@ rules = association_rules(frequent_itemsets, metric="confidence", min_threshold=
 ## Visualization 
 - **Interactive Scatter Plot Support vs Confidence**
 
-![Graph](https://github.com/Udiesh/IBM-NaanMudhalvan/blob/main/newplot%20(4).png](https://github.com/Udiesh/IBM-NaanMudhalvan/blob/main/interactive_plot.png))
+![Graph](https://github.com/Udiesh/IBM-NaanMudhalvan/blob/main/interactive_plot.png)
 
 - **Sunburst Chart**
 ![Graph](https://github.com/Udiesh/IBM-NaanMudhalvan/blob/main/newplot%20(5).png)

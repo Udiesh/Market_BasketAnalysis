@@ -125,6 +125,8 @@ rules = association_rules(frequent_itemsets, metric="confidence", min_threshold=
 - A Line Plot which shows the number of rules generated for a `min_support=0.009` for different `min_threshold` values.
 ![Graph](https://github.com/Udiesh/IBM-NaanMudhalvan/blob/main/newplot%20(3).png)
 
+- We can observe that with reducing the threshold value the number of rules generated are increasing. 
+
 
 
 ## Visualization 

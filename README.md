@@ -85,11 +85,11 @@ rules = association_rules(frequent_itemsets, metric="confidence", min_threshold=
 
 Example Top 5 Rules:
 
-| Antecedents                          | Consequents                     | Support   | Confidence |
-|-------------------------------------|----------------------------------|-----------|------------|
-| 60 CAKE CASES DOLLY GIRL DESIGN     | PACK OF 72 RETROSPOT CAKE CASES | 0.010061  | 0.543      |
-| ALARM CLOCK BAKELIKE CHOCOLATE      | ALARM CLOCK BAKELIKE RED        | 0.011985  | 0.698      |
-| ...                                 | ...                              | ...       | ...        |
+| Antecedents                     | Consequents                     | Support  | Confidence |
+| ------------------------------- | ------------------------------- | -------- | ---------- |
+| 60 CAKE CASES DOLLY GIRL DESIGN | PACK OF 72 RETROSPOT CAKE CASES | 0.010061 | 0.543      |
+| ALARM CLOCK BAKELIKE CHOCOLATE  | ALARM CLOCK BAKELIKE RED        | 0.011985 | 0.698      |
+| ...                             | ...                             | ...      | ...        |
 
 Adjusting thresholds (e.g., min_support=0.02, min_confidence=0.7) yields **fewer but stronger rules**.
 
@@ -98,13 +98,13 @@ Adjusting thresholds (e.g., min_support=0.02, min_confidence=0.7) yields **fewer
 ## 📊 Visualization
 
 - **Line Plot** — Rules generated across varying confidence thresholds  
-  ![Line Plot](https://github.com/Udiesh/IBM-NaanMudhalvan/blob/main/newplot%20(3).png)
+  ![Line Plot](https://github.com/Udiesh/Market_BasketAnalysis/blob/main/visualizations/rule_count_vs_threshold.png)
 
 - **Interactive Scatter Plot: Support vs Confidence**  
-  ![Scatter Plot](https://github.com/Udiesh/IBM-NaanMudhalvan/blob/main/interactive_plot.png)
+  ![Scatter Plot](https://github.com/Udiesh/Market_BasketAnalysis/blob/main/visualizations/support_vs_confidence_plot.png)
 
 - **Sunburst Chart** — Hierarchical representation of frequent itemsets  
-  ![Sunburst](https://github.com/Udiesh/IBM-NaanMudhalvan/blob/main/newplot%20(5).png)
+  ![Sunburst](https://github.com/Udiesh/Market_BasketAnalysis/blob/main/visualizations/sunburst_chart.png)
 
 ---
 
@@ -124,4 +124,3 @@ This project successfully demonstrates how businesses can turn raw shopping data
 ## 📄 License
 
 This project is licensed under the [MIT License](LICENSE).
-
